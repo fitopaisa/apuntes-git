@@ -1,5 +1,10 @@
-## Curso de Git desde cero
+### Curso de Git desde cero
 
   1. Prepara los archivbos en el area de trabajo
   2. Prepara los archivos.
+  3. cambiamos algo y realizamos otro comit
 
+### Configurando Git.
+```
+git config --global user.name "Adolfo Andrino"
+```
