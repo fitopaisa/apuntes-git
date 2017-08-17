@@ -4,4 +4,3 @@
 
 este comando nos muestra el historial en una sola linea por commit.
 
-lineas añadidas desde master. 
