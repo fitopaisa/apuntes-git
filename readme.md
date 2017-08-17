@@ -1,5 +1,15 @@
 ### Curso de Git desde cero
 
+## Para subir cambios al repositorio 
+# añadir origin en local
+git remote add origin git@github.com:fitopaisa/apuntes-git.git
+
+# subir repositorio
+git push -u origin master
+
+## Clonar repositorio
+
+
 ### Zonas de Git
 1. Directorio de trabajo
 2. Areae de preparacion
@@ -13,7 +23,7 @@
 
 ### Configurando Git.
 ```
-git config --global user.name "Adolfo Andrino"
+git config --global user.name "fitopaisa"
 ```
 
 ###
