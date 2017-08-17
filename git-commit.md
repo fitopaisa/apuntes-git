@@ -9,4 +9,5 @@
 ```
  
  o cambiar el nombre de origin por que queramos.  con
+ 
  `git remote rename origin github`
