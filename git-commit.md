@@ -1,3 +1,3 @@
 ### git commit 
 
-agrtegado desde la rama testing.
+Agregando desde la rama testing.
