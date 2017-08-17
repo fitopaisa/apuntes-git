@@ -22,5 +22,9 @@ git tag -l "V1*"
 ```
 Lista las etiquetas filtrando 
 
+<<<<<<< HEAD
 
 esta linea fue creada desde laa Rama MASTER
+=======
+Linea que se modifica desde la RAMA3
+>>>>>>> tercera-rama
