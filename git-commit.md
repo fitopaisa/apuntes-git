@@ -1,13 +1,15 @@
-## git remote add origin https://github.com/fitopaisa/apuntes-git.git
-#Comando para vincular el repositorio local con git. 
- 
- El nombre de origin es el usado por defecto pero podemos usar el que queramos por ejemplo
+## git commit
 
-```
- git remote add github https://github.com/fitopaisa/apuntes-git.git
- git remote add origin https://github.com/fitopaisa/apuntes-git.git
-```
- 
- o cambiar el nombre de origin por que queramos.  con
- 
- `git remote rename origin github`
+Para confirmar lso cambios y subirlos al repositorio.
+
+
+
+## git commit --ammend
+
+añade a la confirmacion nuevos cambios, solo vale para el ultimo commit. 
+
+## git commit -a
+
+Salta directamente del stage area a la confirmacion commit. 
+solo si el archivos ya lo estamos siguiendo. 
+si es nuevo tendremos quehacer got add antes. para seguirlo.
