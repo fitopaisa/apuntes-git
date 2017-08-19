@@ -1,5 +1,7 @@
 ## Curso de Git desde cero
 
+lineas para borrar desde windows.
+
 ### añadir origin en local
 git remote add origin git@github.com:fitopaisa/apuntes-git.git
 
@@ -17,9 +19,9 @@ git remote add origin git@github.com:fitopaisa/apuntes-git.git
 
 
 ### Flujo de trabajo
-  1. Prepara los archivbos en el area de trabajo
-  2. Prepara los archivos.
-  3. cambiamos algo y realizamos otro comit
+1. Prepara los archivbos en el area de trabajo
+2. Prepara los archivos.
+3. cambiamos algo y realizamos otro comit
 
 ### Configurando Git.
 ```
