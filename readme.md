@@ -27,8 +27,3 @@ git config --global user.name "fitopaisa"
 git config --blobal user.email fitopaisa@hotmail.com
 ```
 
-###
-```
-git tag -l "V1*"
-```
-Lista las etiquetas filtrando 
