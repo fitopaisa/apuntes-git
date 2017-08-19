@@ -24,6 +24,7 @@ git remote add origin git@github.com:fitopaisa/apuntes-git.git
 ### Configurando Git.
 ```
 git config --global user.name "fitopaisa"
+git config --blobal user.email fitopaisa@hotmail.com
 ```
 
 ###
