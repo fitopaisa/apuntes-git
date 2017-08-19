@@ -1,7 +1,5 @@
 ### ssh
 
-## ### ssh
-
 ## Configuración SSH en Windows. 
 comprobamos si ya tenemos una llave ssh en la ruta de nuestro home. 
 ```
