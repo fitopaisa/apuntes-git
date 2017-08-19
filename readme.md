@@ -6,6 +6,8 @@ lineas para borrar desde windows.
 git remote add origin git@github.com:fitopaisa/apuntes-git.git
 
 
+# linea añadida desde linux y subida por ssh
+
 ## Para subir cambios al repositorio 
 `git push -u origin master`
 
