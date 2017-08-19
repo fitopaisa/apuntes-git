@@ -1,6 +1,20 @@
 ### ssh
 
 ## Configuracion SSH en Windows. 
+comprobamos si ya tenemos una llave ssh en la ruta de nuestro home. 
+```
+cd ~/.ssh
+ls
+```
+si salen ficheros *_rsa y *.rsa_pub es qua ya tenemos claves configuradas. 
+en tal caso decidimos si queremos usar esa misma o crear una nueva. 
+
+
+
+
+
+
+
 1. creamos una carpeta oculta `./llaves-ssh ` en `C` para guardar las llaves ssh.
 ```
 cd /c/
