@@ -1,17 +1,13 @@
-## Curso de Git desde cero
+### Curso de Git desde cero
 
 lineas para borrar desde windows.
 
-### añadir origin en local
+## añadir origin en local
 git remote add origin git@github.com:fitopaisa/apuntes-git.git
 
 
-# linea añadida desde linux y subida por ssh
-
 ## Para subir cambios al repositorio 
 `git push -u origin master`
-
-## Clonar repositorio
 
 
 ### Zonas de Git
