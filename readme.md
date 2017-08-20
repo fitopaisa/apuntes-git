@@ -7,6 +7,7 @@ git remote add origin git@github.com:fitopaisa/apuntes-git.git
 
 
 # linea añadida desde linux y subida por ssh
+# linea añadida desde Windows por ssh configuracion estandar. 
 
 ## Para subir cambios al repositorio 
 `git push -u origin master`
