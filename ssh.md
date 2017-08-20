@@ -1,15 +1,18 @@
 ### ssh
 
 ## Configuración SSH en Windows. 
+
+Importante en linux hacer todo esto como usuario.
+N o como root o te dara errores de autenticacion al subir por que las rutas son distintas. 
+En caso de Windows si te d algun error la ruta de usuarios poir eu tenga espacion puedes crear la ruta en /c/[ruta].
+
 comprobamos si ya tenemos una llave ssh en la ruta de nuestro home. 
 ```
 cd ~/.ssh
 ls
 ```
 si salen ficheros *_rsa y *.rsa_pub es qua ya tenemos claves configuradas.
-
 en tal caso decidimos si queremos usar esa misma o crear una nueva. 
-
 crearemos una nueva. 
 
 Por defecto las claves ssh se generan en  la carpeta oculta ~/.ssh/ pero podemos cambiar la ruta. 
@@ -48,7 +51,7 @@ en caso de linux te pedira que abras alguna ventanas mas y que navegues para gen
 usamos ssh-agent en segundo plano con `eval "$(ssh-agent -s)"`
 agregamos la ruta de la llave ejecuando `ssh-add /[ruta]/[archivo_rsa]`
 ```
-$ eval "$(ssh-agent -s)""
+$ eval "$(ssh-agent -s)"
 $ ssh-add /c/Users/fitopaisa/.keys/github_rsa
 ```
 
@@ -59,7 +62,7 @@ cd ~/.keys
 pwd
 ssh-keygen -t rsa -C "fitopaisa@hotmail.com"
 /c/Users/fitopaisa/.keys/github_rsa
-$ eval "$(ssh-agent -s)""
+$ eval "$(ssh-agent -s)"
 $ ssh-add /c/ruta-ssh/github_rsa
 
 ```
