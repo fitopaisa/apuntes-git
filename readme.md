@@ -1,6 +1,7 @@
 ### Curso de Git desde cero
 
 lineas para borrar desde windows.
+Otra linea para borrar desde Windows. para GitLab.
 
 ## añadir origin en local
 git remote add origin git@github.com:fitopaisa/apuntes-git.git
