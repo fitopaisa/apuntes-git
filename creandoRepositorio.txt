@@ -1,0 +1,17 @@
+ # Creando nuevo repositorio en Git hub
+
+En tu lista de repositorios pulsar New. 
+
+Opciones:
+
+Repository name: /[ Nombre del repositorio. ]
+
+Descripcion: [ Descripcion opcional. ]
+
+Publico/Private
+
+[-] Initialize this repository with a README Crea un fichero README
+
+Añadir .gitignore [Opcional]
+Añadir licencia [Opcional]
+
